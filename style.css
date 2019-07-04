@@ -8,13 +8,15 @@
 body {
   background-image: url("BACKGROUND.jpg");
 }
- .test {
+ .rubberBand{
     color:white; 
     font-size: 50px; 
     font-family: 'Boogaloo';
     margin: 40px;
     text-align: center;
-
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
 } 
 
 .table{
@@ -25,6 +27,12 @@ body {
     margin: 10px auto;
     opacity: 0.6; 
   
+  }
+  table tr td {
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
   }
   .cell {
     background-color:white ;
@@ -44,8 +52,8 @@ body {
   width: 150px;
   height: 100px;
   color:pink;
-  margin: 10px auto;
-  border-radius: 12px;
+   margin: 10px auto; 
+  border-radius: 20px;
 	display: block;
   border: none;
   font-family: 'Boogaloo';
@@ -61,5 +69,20 @@ body {
   font-family: 'Boogaloo';
   margin: 30px;
   text-align: center;
+
+}
+.animated
+{
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.center {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Boogaloo';
+  font-size: 20px;
 
 }
