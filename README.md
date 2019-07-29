@@ -3,7 +3,7 @@
 * Summary
 
 A tic-tac-toe game in Javascript.  I made this game as a project that is part of the Software Engineering immersive course.
-The live demo of this project is available "https://naaadaa.github.io/project-1-prompt/ ".
+The live demo of this project is available [Here](https://naaadaa.github.io/project-1-prompt/ ).
 
 ## * How to play the game : 
 
@@ -12,10 +12,10 @@ The object of Tic Tac Toe is to get three in a row. You play on a three by three
 
 
 ## * Technologies/Frameworks used in this game:
-1- HTML5
-2- CSS
-3- JavaScript
-4- jQuery
+- HTML5
+- CSS
+- JavaScript
+- jQuery
 - Wireframes : https://balsamiq.cloud/s99pnkq/psidewy
 
 ## * Explanation of project structure:
